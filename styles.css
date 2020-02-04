@@ -1,0 +1,53 @@
+body{
+background: no-repeat ;
+margin:0;
+padding:0;
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvsYjGTrPzCP4xBK0MvTKpu7lnzwjGJI2aEMNcH5uOyGt1iAp3");
+background-size:cover;
+background-position: center;
+
+}
+.loginbox img{
+    width:200px;
+    height:200px;
+    top:50%;
+    left:50%;
+}
+.loginbox {
+width:320px;
+height: 550px;
+background:black;
+top:50%;
+left:50%;
+right:50%;
+bottom: 50%;
+transform:translate(-50%,-50%);
+position: absolute;
+
+}
+.container{
+width: 100px;
+height:100px;
+text-size:200px;
+margin:auto;
+}
+.container p{ 
+text-align: left;
+color:blue;
+font-size:20px;
+}
+.container  input[type="submit"]{
+height:40px;
+width:70px;
+font-size: 45px;
+}
+.container input[type="text"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    outline:none;
+    height:40px;
+    color:black;
+    font-size: 16px;
+    width:170px;
+    margin-left:2px;
+}
